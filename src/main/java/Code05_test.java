@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Code05_test {
     public static void main(String[] args){
         Scanner dw = new Scanner(System.in);
-        int num;
+        long num;
 
-        num = dw.nextInt();
+        num = dw.nextLong();
 
         if(num%2 == 0){
             System.out.println("짝수입니다.");
