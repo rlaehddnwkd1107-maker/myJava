@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Code05_08 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner dw = new Scanner(System.in);
         int score;
 
@@ -22,5 +22,4 @@ public class Code05_08 {
         System.out.println(" 학점입니다.");
         dw.close();
     }
-
 }
