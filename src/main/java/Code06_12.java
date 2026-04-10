@@ -7,13 +7,19 @@ public class Code06_12 {
         int num1, num2;
 
         while(true) {
+            System.out.println("0을 더하면 반복이 종료됩니다.");
             System.out.print("숫자1 ==> ");
             num1 = s.nextInt();
+
             System.out.print("숫자2 ==> ");
             num2 = s.nextInt();
 
+
             hap = num1 + num2;
             System.out.println(num1 + " + " + num2 + " = " + hap);
+            if (num2 == 0 )
+                break;
         }
+
     }
 }
