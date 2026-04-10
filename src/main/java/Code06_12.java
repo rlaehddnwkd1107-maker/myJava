@@ -7,7 +7,7 @@ public class Code06_12 {
         int num1, num2;
 
         while(true) {
-            System.out.println("0을 더하면 반복이 종료됩니다.");
+            System.out.println(" 0을 더하면 계산기가 종료됩니다.");
             System.out.print("숫자1 ==> ");
             num1 = s.nextInt();
 
