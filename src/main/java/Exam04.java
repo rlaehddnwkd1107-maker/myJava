@@ -9,7 +9,7 @@ public class Exam04 {
                 star = 8 - i;
             }
 
-            for (int j = 1; j <= star; j++) {
+            for (int j = 0; j < star; j++) {
                 System.out.print("*");
             }
 
