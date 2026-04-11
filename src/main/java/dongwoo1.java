@@ -5,7 +5,7 @@ public class dongwoo1 {
         Scanner sc = new Scanner(System.in);
         int year, month;
 
-        System.out.println("년도(4자리) 월(1자리) 입력하세요");
+        System.out.println("년도(4자리) 한칸뛰고 월 입력하세요");
 
         year = sc.nextInt();
         month = sc.nextInt();
