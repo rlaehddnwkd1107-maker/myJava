@@ -18,7 +18,7 @@ public class dongwoo2 {
 
 
         System.out.println("행운의 숫자 보상: " + (num * 3));
-        System.out.println("금화 무게 보상: " + (wei * 3));
+        System.out.printf("금화 무게 보상:%5.1f \n" , (wei * 3) );
         System.out.println("최종 포인트 보상:" + (p * 3));
 
 
