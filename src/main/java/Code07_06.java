@@ -19,5 +19,9 @@ public class Code07_06 {
         rabbit2.shape = "삼각형";
         rabbit3.shape = "토끼";
 
+        rabbit1.setPosition(100, 100);
+        rabbit2.setPosition(-100, 100);
+        rabbit3.setPosition(0, -100);
+
     }
 }
