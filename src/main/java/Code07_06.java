@@ -15,6 +15,9 @@ public class Code07_06 {
         Rabbit rabbit2 = new Rabbit();
         Rabbit rabbit3 = new Rabbit();
 
+        rabbit1.shape = "원";
+        rabbit2.shape = "삼각형";
+        rabbit3.shape = "토끼";
 
     }
 }
