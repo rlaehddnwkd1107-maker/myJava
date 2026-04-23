@@ -5,7 +5,7 @@ public class Q5 {
         int sum = 0;
 
         for (int i = 100; i <= 300; i++) {
-            if (i % 5 == 0 && i % 7 == 0) {
+            if (i % 35 == 0) {
                 sum += i;
             }
         }
