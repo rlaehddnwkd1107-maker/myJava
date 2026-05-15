@@ -15,7 +15,6 @@ class HouseRabbit8 extends Rabbit8{
         System.out.println("집도끼가 우리에서 잠자고 있습니다.");
     }
 }
-
 class MountainRabbit8 extends Rabbit8 {
     @Override
     void sleep() {
